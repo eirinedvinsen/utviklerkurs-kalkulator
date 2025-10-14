@@ -40,12 +40,12 @@ body{
 
 .keys{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 5px;
 }
 
 .equal{
-    grid-column: 3/5;
+    grid-column: 4/6;
 }
 
 button{
@@ -55,3 +55,4 @@ button{
     border-radius: 15px;
     background-color: var(--fun-color);
 }
+
