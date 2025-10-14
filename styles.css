@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: grey;
+}
+
+.calculator{
+    width: 340px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 10px;
+}
+
+.display{
+    height: 40px;
+    background-color: blanchedalmond;
+    text-align: right;
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+.equal{
+    grid-column: 3/5;
+}
+
+button{
+    padding: 15px;
+    font-size: 18px;
+    border: 1px solid;
+    border-radius: 15px;
+    background-color: teal;
+}
